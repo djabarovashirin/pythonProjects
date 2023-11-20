@@ -14,7 +14,7 @@ try:
     yd = yt.streams.get_highest_resolution()
 
     # Download the video to the current directory
-    yd.download('/Users/shirindjabarova/Downloads/DownloadedVideos')
+    yd.download('/Users/YourName/Downloads/DownloadedVideos')
 
     print('Download complete.')
 except Exception as e:
